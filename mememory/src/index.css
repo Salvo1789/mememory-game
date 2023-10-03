@@ -15,7 +15,21 @@ code {
 #root {
   height: 100vh;
   display: flex;
-  background: #130f40;
+  background: linear-gradient(-45deg, #bdee52, #bb8d0f, #ea4c13, #dd2198);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .memory-game {
