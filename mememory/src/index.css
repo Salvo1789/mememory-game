@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,9 +13,15 @@ code {
 #root {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   background: linear-gradient(-45deg, #bdee52, #bb8d0f, #ea4c13, #dd2198);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+}
+
+@font-face {
+  font-family: 'Pixelify Sans';
+  src: local('Pixelify Sans'), url(./fonts/PixelifySans-Regular.ttf) format('truetype');
 }
 
 @keyframes gradient {
@@ -30,6 +34,21 @@ code {
     100% {
         background-position: 0% 50%;
     }
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 3rem;
+}
+
+#meme {
+  color: transparent;
+  background-image: linear-gradient(-45deg, #5b5bad, #a8bce3, #58d0c6, #24cd15);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .memory-game {

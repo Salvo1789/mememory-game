@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { cardsData } from "../cards";
 import Card from "./Card";
 
+
 function Game() {
     //Cards State
     let [cardsState, setCardsState] = useState(cardsData);
@@ -55,6 +56,8 @@ function Game() {
 
 
     return (
+      <>
+      <h1 className="font-face-gm"><span id="meme">MEME</span>MORY</h1>
         <section className="memory-game">
             {cardsState.map((card) => {
               return(
@@ -65,6 +68,7 @@ function Game() {
                 />
             )})}
         </section>
+        </>
     )
 }
 
