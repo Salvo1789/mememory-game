@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mememory-game/static/css/main.e47f8252.css",
+    "main.js": "/mememory-game/static/js/main.94a07955.js",
+    "static/js/787.7f73e722.chunk.js": "/mememory-game/static/js/787.7f73e722.chunk.js",
+    "static/media/PixelifySans-Regular.ttf": "/mememory-game/static/media/PixelifySans-Regular.78dfe66b4f31904f6ee9.ttf",
+    "index.html": "/mememory-game/index.html",
+    "main.e47f8252.css.map": "/mememory-game/static/css/main.e47f8252.css.map",
+    "main.94a07955.js.map": "/mememory-game/static/js/main.94a07955.js.map",
+    "787.7f73e722.chunk.js.map": "/mememory-game/static/js/787.7f73e722.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e47f8252.css",
+    "static/js/main.94a07955.js"
+  ]
+}
